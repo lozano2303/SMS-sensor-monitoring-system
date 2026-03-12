@@ -115,7 +115,7 @@ public class MonitoringCenter {
     }
     
     public void listSensors() {
-        System.out.println("\n=== SENSORES REGISTRADOS ===");
+        System.out.println("\n===SENSORES REGISTRADOS===");
         if (registeredSensors.isEmpty()) {
             System.out.println("No hay sensores registrados.");
             return;
